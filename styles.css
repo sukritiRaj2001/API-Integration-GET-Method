@@ -1,0 +1,30 @@
+body {
+  background-color: #f8f9fa;
+}
+
+h1, h2 {
+  color: #343a40;
+}
+
+#imageContainer img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.card {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#responseMessage {
+  font-weight: bold;
+  color: #28a745;
+}
